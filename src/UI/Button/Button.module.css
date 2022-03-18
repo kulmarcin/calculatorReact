@@ -1,0 +1,16 @@
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 114.2px;
+  height: 104.2px;
+  border: 1px solid black;
+  font-size: 1.5rem;
+}
+.Button:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+/*# sourceMappingURL=Button.module.css.map */

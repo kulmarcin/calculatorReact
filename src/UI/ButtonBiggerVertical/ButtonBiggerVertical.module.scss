@@ -1,0 +1,16 @@
+.ButtonBiggerVertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(50, 50, 223);
+  width: 114.2px;
+  height: 210.2px;
+  border: 1px solid black;
+  font-size: 1.5rem;
+  color: white;
+
+  &:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+  }
+}

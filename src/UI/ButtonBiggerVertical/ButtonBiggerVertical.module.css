@@ -1,0 +1,17 @@
+.ButtonBiggerVertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3232df;
+  width: 114.2px;
+  height: 210.2px;
+  border: 1px solid black;
+  font-size: 1.5rem;
+  color: white;
+}
+.ButtonBiggerVertical:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+/*# sourceMappingURL=ButtonBiggerVertical.module.css.map */

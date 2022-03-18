@@ -1,0 +1,17 @@
+.ButtonBigger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eb4848;
+  width: 230.5px;
+  height: 104.2px;
+  border: 1px solid black;
+  font-size: 1.5rem;
+  color: white;
+}
+.ButtonBigger:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+/*# sourceMappingURL=ButtonBigger.module.css.map */

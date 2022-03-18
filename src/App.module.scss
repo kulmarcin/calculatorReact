@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+.App {
+  width: 463px;
+  height: 622.19px;
+  background-color: black;
+  display: grid;
+  grid-template-rows: 9fr 3fr;
+  box-shadow: 5px 5px 25px black;
+}
+
+.Display {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+
+.Memory {
+  cursor: default;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1rem;
+  color: rgb(245, 178, 53);
+}
+
+.Actual {
+  cursor: default;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 1rem;
+  font-size: 3rem;
+  color: white;
+}
+
+.Controls {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: grid;
+  grid-row: 2 / 3;
+  grid-template-columns: 348.7px 105px;
+  column-gap: 0;
+  height: 100%;
+  grid-auto-flow: column;
+}
+
+.Numbers {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.Tools {
+  display: flex;
+  flex-direction: column;
+}

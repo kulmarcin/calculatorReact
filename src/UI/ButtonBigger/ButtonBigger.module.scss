@@ -1,0 +1,16 @@
+.ButtonBigger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(235, 72, 72);
+  width: 230.5px;
+  height: 104.2px;
+  border: 1px solid black;
+  font-size: 1.5rem;
+  color: white;
+
+  &:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+  }
+}
